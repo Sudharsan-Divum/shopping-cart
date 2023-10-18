@@ -1,0 +1,63 @@
+[
+    {
+        "id" : 1,
+        "name": "Laptop Bag",
+        "price": 1299,
+        "img": "/assets/images/Smart-watch.jpeg"
+    },
+    {
+        "id" : 2,
+        "name": "Nikon Camera",
+        "price": 15999,
+        "img": "/assets/images/camera"
+    },
+    {
+        "id" : 3,
+        "name": "Dodge charger",
+        "price": 6599299,
+        "img": "/assets/images/shoe.jpg"
+    },
+    {
+        "id" : 4,
+        "name": "Cricket Kit SG",
+        "price": 84999,
+        "img": "/assets/images/cricket"
+    },
+    {
+        "id" : 5,
+        "name": "Mountain Cycle",
+        "price": 24999,
+        "img": "/assets/images/cycle"
+    },
+    {
+        "id" : 6,
+        "name": "BOSE Earpods",
+        "price": 54999,
+        "img": "/assets/images/earpods"
+    },
+    {
+        "id" : 7,
+        "name": "AGV Helmet",
+        "price": 34999,
+        "img": "/assets/images/helmet"
+    },
+    {
+        "id" : 8,
+        "name": "ROG Laptop",
+        "price": 124999,
+        "img": "/assets/images/laptop"
+    },
+    {
+        "id" : 9,
+        "name": "Apple iPhone 15 pro",
+        "price": 248999,
+        "img": "/assets/images/phones"
+    },
+    {
+        "id" : 10,
+        "name": "JBL FLIP 5",
+        "price": 34999,
+        "img": "/assets/images/speaker"
+    }
+
+]
