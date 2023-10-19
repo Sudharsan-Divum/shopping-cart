@@ -1,6 +1,5 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import cart from "../../assets/images/Cart-.png";
 import { useShoppingCart } from "../../context/shoppingCartContext";
 
 export function Navbar() {

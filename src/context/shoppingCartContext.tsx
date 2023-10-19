@@ -60,7 +60,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   function decreaseQuantity(id: number) {
     setCartItems((currItems) => {
       if (currItems.find((item) => item.id === id)?.quantity === 1) {
-        return currItems.filter((item) => item.id != id);
+        return currItems.filter((item) => item.id !== id);
       } else {
         return currItems.map((item) => {
           if (item.id === id) {
@@ -75,7 +75,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   function removeFromCart(id: number) {
     setCartItems((currItems) => {
-      return currItems.filter((item) => item.id != id);
+      return currItems.filter((item) => item.id !== id);
     });
   }
 

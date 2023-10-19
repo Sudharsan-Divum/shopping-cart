@@ -17,6 +17,7 @@ export function CartItems({ id, quantity }: CartItemProps) {
       <img
         src={item.img}
         style={{ width: "120px", height: "75px", objectFit: "cover" }}
+        alt = "Images"
       />
       <div className="me-auto">
         <div>
