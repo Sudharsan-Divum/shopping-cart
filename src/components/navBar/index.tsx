@@ -1,12 +1,16 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../../context/shoppingCartContext";
+import logo from "../../images/logo2.png";
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart();
   return (
     <>
-      <NavbarBs sticky="top" className="bg-white shadow-sm mb-3 ">
+      <NavbarBs
+        sticky="top"
+        className="bg-white shadow-sm mb-3 d-flex align-items-center "
+      >
         <Container>
           <Nav className="me-auto">
             <Nav.Link to="/" as={NavLink}>
@@ -19,6 +23,12 @@ export function Navbar() {
               Store
             </Nav.Link>
           </Nav>
+          <img
+            src={logo}
+            height={100}
+            width={100}
+            className="mx-auto d-flex align-items-center justify-content-center "
+          />
           {cartQuantity > 0 && (
             <Button
               style={{ width: "3rem ", height: "3rem", position: "relative" }}

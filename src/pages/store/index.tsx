@@ -9,7 +9,7 @@ const Store = () => {
         <h1>
             Store
         </h1>
-        <Row className="g-3" md ={2} xs={1} l={3}>
+        <Row className="g-3" md ={2} xs={1} lg={3}>
             {storeItems.map(item => (
                 <Col>
                 <StoreItems {...item} />
